@@ -52,8 +52,8 @@ entries:
       url: /arduino_odrive_instructions.html
       output: web, pdf
 
-    - title: 5.0 Release notes
-      url: /mydoc_release_notes_50.html
+    - title: Add how to 1
+      url: /howto_01.html
       output: web, pdf
 
   - title: Installation
