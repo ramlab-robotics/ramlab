@@ -56,6 +56,26 @@ entries:
       url: /howto_01.html
       output: web, pdf
 
+   - title: Electro Adhesive Clutches
+    output: web, pdf
+    folderitems:
+
+    - title: About
+      url: /eac_about.html
+      output: web, pdf
+
+    - title: Documentation 1
+      url: /documentation1.html
+      output: web, pdf
+
+    - title: Documentation 2
+      url: /documentation2.html
+      output: web, pdf
+
+    - title: Documentation 3
+      url: /documentation3.html
+      output: web, pdf
+
   - title: Installation
     output: web, pdf
     folderitems:
@@ -72,7 +92,7 @@ entries:
       url: /mydoc_install_jekyll_on_windows.html
       output: web, pdf
 
-  - title: Authoring
+  - title: Sample Posts
     output: web, pdf
 
     folderitems:
