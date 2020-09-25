@@ -84,8 +84,8 @@ Now that your machine is linked to your Github account, and Github is confident 
 Go to the RAMLab  github website (https://github.com/ramlab-robotics/ramlab). [link](https://github.com/ramlab-robotics/ramlab)
 1. Copy the URL of the repo by pressing on the **Code** green button and clicking on the clipboard as shown below:
 {% include image.html file="github07.JPG" %}
-2. In the GitBaash terminal type "cd" to go to your home directory and then "cd ~/Documents". 
-3. In the Documents folder clone the repository by typing "git clone [URL]" replace URL with the URL that was copied from github. 
+2. In the GitBaash terminal type ``cd`` to go to your home directory and then ``cd ~/Documents``. 
+3. In the Documents folder clone the repository by typing ``git clone [URL]`` replace URL with the URL that was copied from github. 
 4. Open your files and check that the repository has been added to the Documents folder.
 
 
