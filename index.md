@@ -122,7 +122,7 @@ folder: mydoc
 
  For guidance, look at the page templates inside of ``pages > mydoc``
 
- ### 8. Push Changes
+### 8. Push Changes
 
  1. Save the changes made to your files inside of the repo
 
@@ -135,7 +135,7 @@ folder: mydoc
  5. Push changes to github using the command ``git push https://'ramlab-robotics':'[password]'@github.com/ramlab-robotics/ramlab``
  Replace [passsword] with the github password for the ramlab-robotics account. To request this password email ramlab.robotics@gmail.com with your name and UIC UIN
 
-### 8. Check changes published
+### 9. Check changes published
 
  Once you have pushed your changes it may take a couple of minutes for them to be reflected on the website. Visit https://ramlab-robotics.github.io/ramlab/. [link](https://ramlab-robotics.github.io/ramlab/) or refresh this page to see the changes.
 
