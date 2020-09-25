@@ -6,6 +6,8 @@ sidebar: mydoc_sidebar
 permalink: index.html
 toc: false
 summary: These brief instructions will help you get started with pushing documentation to the website. 
+header:
+    image: "/images/github01.JPG"
 ---
 
 ## GitHub Account
