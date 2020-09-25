@@ -59,8 +59,10 @@ What this does is it copies the public version of your key to the clipboard buff
 
 Then, go to your Github account, and click your profile pic in the top right corner of your Github account and select “Settings” from the drop-down menu, as shown below:
 
-{% include image.html file="github01.JPG"" %}
+{% include image.html file="github01.JPG" %}
 
+Under Personal settings, select “SSH and GPG keys”, as shown below:
+{% include image.html file="github02.JPG" %}
 
 
 
