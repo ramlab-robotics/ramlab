@@ -1,5 +1,5 @@
 ---
-title: "Getting started with the Documentation Theme for Jekyll"
+title: "Getting started with GitHub"
 keywords: sample homepage
 tags: [getting_started]
 sidebar: mydoc_sidebar
@@ -14,7 +14,7 @@ Follow these instructions to set up your github account.
 
 ### 1. Create a GitHub account
 
-Go to github.com. [link](www.github.com) Click on the **Sign up** button and follow the instructions to create your account. 
+Go to github.com. [link](https://www.github.com) Click on the **Sign up** button and follow the instructions to create your account. 
 
 ### 2. Install GitBash for Windows
 
@@ -31,8 +31,43 @@ To create an **SSH** key, simply follow the steps outlined below:
 ssh-keygen -t rsa -b 4096 -C "<your email address>" serve
 ```
 This will generate a new **SSH** key.
-3.
-### 4. Option 1: Build the Theme (*without* the github-pages gem) {#option1}
+3. Next, you will be prompted to enter a directory to save the key. I simply press Enter to accept the default location, which is a .ssh folder in the home directory. In other words, you will be able to locate the key in “~/.ssh/id_rsa”.
+4. You will then be prompted to choose a passphrase. I prefer not to have a passphrase; so just press Enter and Enter again to confirm the empty passphrase.
+Now, if you navigate to the .ssh subdirectory, i.e., if you run the following in the Git Bash terminal,
+```
+cd ~/.ssh
+```
+and then,
+``
+ls
+``
+to the list the contents of the .ssh subdirectory, you should find “id_rsa” and “id_rsa.pub” in the list of contents, where “id_rsa” is the private version of your key and “id_rsa.pub” is the public version of your key.
+5. Finally, you will need to add the SSH key to the ssh-agent, which is meant to help with the authentication process. To do that, first you need to start the ssh-agent, so run the following in the Git Bash terminal:
+```
+eval "$(ssh-agent -s)"
+```
+And then add the key to the agent by running the following in the Git Bash terminal:
+```
+ssh-add ~/.ssh/id_rsa
+```
+### 4. Add the Key to Your Github Account
+The next step is to add the SSH key to your Github account. The first thing to do, is to run the following in the Git Bash terminal:
+```
+cat ~/.ssh/id_rsa.pub | clip
+```
+What this does is it copies the public version of your key to the clipboard buffer.
+
+Then, go to your Github account, and click your profile pic in the top right corner of your Github account and select “Settings” from the drop-down menu, as shown below:
+
+{% include image.html file="github01.JPG"" %}
+
+
+
+
+
+
+
+
 
 Use this option if you're not planning to publish your Jekyll site using [Github Pages](https://pages.github.com/).
 
