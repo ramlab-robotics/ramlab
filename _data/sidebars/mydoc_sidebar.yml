@@ -44,12 +44,12 @@ entries:
       url: /mydoc_support.html
       output: web, pdf
 
-  - title: Release Notes
+  - title: How-to
     output: web, pdf
     folderitems:
 
-    - title: 6.0 Release notes
-      url: /mydoc_release_notes_60.html
+    - title: Arduino ODrive Instructions
+      url: /arduino_odrive_instructions.html
       output: web, pdf
 
     - title: 5.0 Release notes
