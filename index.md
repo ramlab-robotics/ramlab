@@ -101,7 +101,7 @@ The file structure should look like this:
 
 ### 7. Create a page
 
- 1. Create a file called ``mydoc_howto_arduino_odrive.md'' , for example, inside of pages > mydoc. 
+ 1. Create a file called ``mydoc_howto_arduino_odrive.md`` , for example, inside of pages > mydoc. 
  2. Add specified parameters and attributes to the top of the file like this:
  ```
 ---

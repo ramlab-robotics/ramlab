@@ -3,10 +3,10 @@ repository: ramlab-robotics/ramlab
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
 
-topnav_title: Robotics and Motion Lab
+topnav_title: RAM Lab Wiki
 # this appears on the top navigation bar next to the home button
 
-site_title: RAM Lab
+site_title: RAM Lab Wiki
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
 company_name: RAM Lab
