@@ -1,6 +1,6 @@
 ---
 title: ODrive Arduino Instructions
-tags: [getting_started]
+tags: [tutorials]
 keywords: 
 last_updated: September 24, 2020
 summary: 
