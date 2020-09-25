@@ -56,7 +56,7 @@ entries:
       url: /howto_01.html
       output: web, pdf
 
-   - title: Electro Adhesive Clutches
+  - title: Electro Adhesive Clutches
     output: web, pdf
     folderitems:
 
