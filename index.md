@@ -64,6 +64,29 @@ Then, go to your Github account, and click your profile pic in the top right cor
 Under Personal settings, select “SSH and GPG keys”, as shown below:
 {% include image.html file="github02.JPG" %}
 
+On the next page, click the button to add a new SSH key to your account, as shown below:
+{% include image.html file="github03.png" %}
+
+This will start a new form where you will have to add the key and give it a name as well.
+{% include image.html file="github04.png" %}
+
+For the title, you give the key a name that describes the machine associated with it. So, if it is your personal computer, then you can name it “Personal-Computer”, as shown below:
+{% include image.html file="github05.png" %}
+
+Then, select the Key field, and press Ctrl-v to paste the key from the clipboard buffer. The pasted key should have your email address at the end, as shown below:
+{% include image.html file="github06.png" %}
+
+Finally, click the “Add SSH key” to complete the process of adding the SSH key to your Github account.
+
+### 5. Clone the ramlab repository 
+Now that your machine is linked to your Github account, and Github is confident that any manipulation of any of your repositories coming from your machine would be initiated by you, let’s go ahead and clone the RAMLab Github repository.
+
+Go to the RAMLab  github website (https://github.com/ramlab-robotics/ramlab). [link](https://github.com/ramlab-robotics/ramlab)
+1. Copy the URL of the repo by pressing on the **Code** green button and clicking on the clipboard as shown below:
+{% include image.html file="github07.JPG" %}
+2. In the GitBaash terminal type "cd" to go to your home directory and then "cd ~/Documents". 
+3. In the Documents folder clone the repository by typing "git clone [URL]" replace URL with the URL that was copied from github. 
+4. Open your files and check that the repository has been added to the Documents folder.
 
 
 
@@ -71,26 +94,9 @@ Under Personal settings, select “SSH and GPG keys”, as shown below:
 
 
 
-Use this option if you're not planning to publish your Jekyll site using [Github Pages](https://pages.github.com/).
 
-Bundler's Gemfile specifies how project dependencies are managed. Although this project includes a Gemfile, this theme doesn't have any dependencies beyond core Jekyll. The Gemfile is used to list gems needed for publishing on Github Pages. **If you're not planning to have Github Pages build your Jekyll project, delete these two files from the theme's root directory:**
 
-* Gemfile
-* Gemfile.lock
 
-If you've never run Jekyll on your computer (you can check with `jekyll --version`), you may need to install the jekyll gem:
-
-```
-gem install jekyll
-```
-
-Now run jekyll serve (first change directories (`cd`) to where you downloaded the project):
-
-```
-jekyll serve
-```
-
-### 4. Option 2: Build the Theme (*with* the github-pages gem) {#option2}
 
 If you *are* in fact publishing on Github Pages, leave the Gemfile and Gemfile.lock files in the theme.The Gemfile tells Jekyll to use the github-pages gem. **However, note that you cannot use the normal `jekyll serve` command with this gem due to dependency conflicts between the latest version of Jekyll and Github Pages** (which are noted [briefly here](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/)).
 
