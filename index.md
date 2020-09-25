@@ -99,7 +99,7 @@ The file structure should look like this:
 3. Create an entry called **How-to** with two page items as shown below. Create a url for each page. e.g. ``url: /arduino_odrive_instructions.html`` this will be the url where we will provide the content.
  {% include image.html file="github10.JPG" %}
 
- ### 7. Create a page
+### 7. Create a page
 
  1. Create a file called ``mydoc_howto_arduino_odrive.md'' , for example, inside of pages > mydoc. 
  2. Add specified parameters and attributes to the top of the file like this:
@@ -135,7 +135,7 @@ folder: mydoc
  5. Push changes to github using the command ``git push https://'ramlab-robotics':'[password]'@github.com/ramlab-robotics/ramlab``
  Replace [passsword] with the github password for the ramlab-robotics account. To request this password email ramlab.robotics@gmail.com with your name and UIC UIN
 
- ### 8. Check changes published
+### 8. Check changes published
 
  Once you have pushed your changes it may take a couple of minutes for them to be reflected on the website. Visit https://ramlab-robotics.github.io/ramlab/. [link](https://ramlab-robotics.github.io/ramlab/) or refresh this page to see the changes.
 
