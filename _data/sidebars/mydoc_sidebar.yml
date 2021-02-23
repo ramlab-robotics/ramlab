@@ -56,6 +56,10 @@ entries:
       url: /howto_01.html
       output: web, pdf
 
+    - title: Digit startup
+    url: /digit_startup.html
+    output: web, pdf
+
   - title: Electro Adhesive Clutches
     output: web, pdf
     folderitems:
