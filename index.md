@@ -80,6 +80,9 @@ Then, select the Key field, and press Ctrl-v to paste the key from the clipboard
 
 Finally, click the “Add SSH key” to complete the process of adding the SSH key to your Github account.
 
+### 5. Request access to ramlab github repos
+Send an email to ramlab.robotics@gmail.com with your name, UIC UIN#, and github account name or email and wait for access to be grnted before proceeding.
+
 ### 5. Clone the ramlab repository 
 Now that your machine is linked to your Github account, and Github is confident that any manipulation of any of your repositories coming from your machine would be initiated by you, let’s go ahead and clone the RAMLab Github repository.
 
