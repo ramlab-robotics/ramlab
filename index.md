@@ -83,7 +83,7 @@ Finally, click the “Add SSH key” to complete the process of adding the SSH k
 ### 5. Request access to ramlab github repos
 Send an email to ramlab.robotics@gmail.com with your name, UIC UIN#, and github account name or email and wait for access to be grnted before proceeding.
 
-### 5. Clone the ramlab repository 
+### 6. Clone the ramlab repository 
 Now that your machine is linked to your Github account, and Github is confident that any manipulation of any of your repositories coming from your machine would be initiated by you, let’s go ahead and clone the RAMLab Github repository.
 
 Go to the RAMLab  github website (https://github.com/ramlab-robotics/ramlab). [link](https://github.com/ramlab-robotics/ramlab)
@@ -93,7 +93,7 @@ Go to the RAMLab  github website (https://github.com/ramlab-robotics/ramlab). [l
 3. In the Documents folder clone the repository by typing ``git clone [URL]`` replace URL with the URL that was copied from github. 
 4. Open your files and check that the repository has been added to the Documents folder.
 
-### 6. Add a sidebar topic
+### 7. Add a sidebar topic
 
 1. Open the repo in your word editor of choice (I recommend Visual Studio Code https://code.visualstudio.com/download. [link](https://code.visualstudio.com/download))
 The file structure should look like this:
@@ -102,7 +102,7 @@ The file structure should look like this:
 3. Create an entry called **How-to** with two page items as shown below. Create a url for each page. e.g. ``url: /arduino_odrive_instructions.html`` this will be the url where we will provide the content.
  {% include image.html file="github10.JPG" %}
 
-### 7. Create a page
+### 8. Create a page
 
  1. Create a file called ``mydoc_howto_arduino_odrive.md`` , for example, inside of pages > mydoc. 
  2. Add specified parameters and attributes to the top of the file like this:
@@ -125,7 +125,7 @@ folder: mydoc
 
  For guidance, look at the page templates inside of ``pages > mydoc``
 
-### 8. Push Changes
+### 9. Push Changes
 
  1. Save the changes made to your files inside of the repo
 
@@ -135,10 +135,9 @@ folder: mydoc
 
  4. Commit all changes and add a comment describing the changes made using the command ``git commit -m "Created a How-to page"``
 
- 5. Push changes to github using the command ``git push https://'ramlab-robotics':'[password]'@github.com/ramlab-robotics/ramlab``
- Replace [passsword] with the github password for the ramlab-robotics account. To request this password email ramlab.robotics@gmail.com with your name and UIC UIN
+ 5. Push changes to github using the command ``git push -origin master``
 
-### 9. Check changes published
+### 10. Check changes published
 
  Once you have pushed your changes it may take a couple of minutes for them to be reflected on the website. Visit https://ramlab-robotics.github.io/ramlab/. [link](https://ramlab-robotics.github.io/ramlab/) or refresh this page to see the changes.
 
