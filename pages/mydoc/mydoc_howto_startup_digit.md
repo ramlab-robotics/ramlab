@@ -11,7 +11,7 @@ folder: mydoc
 
 ## Follow instructions below
 
-* Supplementaary video can be found here. [link](https://www.youtube.com/watch?v=o20WYMYlxLc&authuser=2)
+* Supplementary video can be found here. [link](https://www.youtube.com/watch?v=o20WYMYlxLc&authuser=2)
 
 1. Place robot with chest flat on the ground at a minimum of 3 feet away from any obstacle
 2. Turn e-stop button ON
