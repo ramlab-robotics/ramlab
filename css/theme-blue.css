@@ -46,7 +46,7 @@ a[data-toggle="tooltip"] {
 }
 
 .navbar-inverse .navbar-nav>li>a:hover, a.fa.fa-home.fa-lg.navbar-brand:hover {
-     color: #f34545;
+     color: #f0f0f0;
 }
 
 a.navbar-brand:hover {
