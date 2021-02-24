@@ -10,7 +10,7 @@ h4 {color: #808080; }
 
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
     background-color: #3ec224;
-    color: white;
+    color: rgb(235, 28, 28);
 }
 
 .nav > li.active > a {
