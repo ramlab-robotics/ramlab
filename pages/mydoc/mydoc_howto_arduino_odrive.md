@@ -19,4 +19,4 @@ folder: mydoc
 6. Change baud rate on the serial monitor to 115200
 7. Type the number "0" or "1" to begin motor calibration of motors 0 or 1.
 8. Once Calibration is complete the motor is ready to be used in closed-loop control.
-    * Serial commands are, "s": start sinosoidal motion, "t" stop motion, "u" set speed, "a" set amplitude
+    * Serial commands are, "s": start sinosoidal motion, "t" stop motion, "u" set speed, "a" set amplitudea
