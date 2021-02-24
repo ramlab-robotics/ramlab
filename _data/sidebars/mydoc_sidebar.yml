@@ -80,6 +80,26 @@ entries:
       url: /documentation3.html
       output: web, pdf
 
+  - title: Humanoid Dynamics
+    output: web, pdf
+    folderitems:
+
+    - title: About
+      url: /humanoid_about.html
+      output: web, pdf
+
+    - title: Documentation 1
+      url: /humanoid_documentation1.html
+      output: web, pdf
+
+    - title: Documentation 2
+      url: /humanoid_documentation2.html
+      output: web, pdf
+
+    - title: Documentation 3
+      url: /humanoid_documentation3.html
+      output: web, pdf
+
   - title: Installation
     output: web, pdf
     folderitems:
