@@ -49,5 +49,5 @@ Running the simulator requires basic knowledge of how to run commandsand navigat
 * On Windows 10, the simulator fails to start with an error message mentioning "squashfs" or "FUSE".
 - Use ``./ar-control-xxxx.xx.xx --appimage-extract-and-run`` to start the simulator instead. This occurs if you are using WSL 1 instead of WSL 2.
 * The simulator is running, but there is no terminal window to shut it down from, and I cannot start a new instance of the simulator.
-- Run pkill ar-control in a terminal to terminate the program. Note that the version number should be omitted. This usually happens if you start the simulator by double-clicking on it in the file browser.
+- Run ``pkill ar-control`` in a terminal to terminate the program. Note that the version number should be omitted. This usually happens if you start the simulator by double-clicking on it in the file browser.
 
