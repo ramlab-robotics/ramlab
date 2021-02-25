@@ -68,7 +68,7 @@ entries:
       url: /digit_about.html
       output: web, pdf
 
-    - title: Digit_startup
+    - title: Digit Startup
       url: /digit_startup.html
       output: web, pdf
 
