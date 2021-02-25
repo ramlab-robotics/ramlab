@@ -9,8 +9,6 @@ permalink: digit_getting_started.html
 folder: mydoc
 ---
 
-
-
 The user manual for Digit's hardware and software can be accessed at [this link](http://localhost:8080/doc/) using a web browser when the simulator is running. This documentcontains instructions for getting the simulator running on your personalcomputer or workstation
 
 ## Requirements
