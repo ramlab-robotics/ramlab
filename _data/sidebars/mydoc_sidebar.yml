@@ -60,6 +60,26 @@ entries:
       url: /digit_startup.html
       output: web, pdf
 
+  - title: Digit
+    output: web, pdf
+    folderitems:
+
+    - title: About
+      url: /digit_about.html
+      output: web, pdf
+
+    - title: Digit_startup
+      url: /digit_startup.html
+      output: web, pdf
+
+    - title: Getting Started
+      url: /digit_getting_started.html
+      output: web, pdf
+
+    - title: User Manual
+      url: /digit_user_manual.html
+      output: web, pdf
+
   - title: Electro Adhesive Clutches
     output: web, pdf
     folderitems:
