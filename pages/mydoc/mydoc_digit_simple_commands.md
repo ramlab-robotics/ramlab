@@ -31,7 +31,7 @@ folder: mydoc
 
 ["action-set-operation-mode", {"mode": "disabled"}]
 
-["action-set-operation-mode", {"mode": "joint”}]
+["action-set-operation-mode", {"mode": "joint"}]
 
 ["action-end-effector-move", {"end-effector": "left-hand", "waypoints": [{"rpyxyz": [0,0,0,0,0,0]},{"rpyxyz": [0,0,0,0,0,0.1]}]}]
 
