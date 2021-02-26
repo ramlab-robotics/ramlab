@@ -76,6 +76,10 @@ entries:
       url: /digit_getting_started.html
       output: web, pdf
 
+    - title: Simple Simulation Commands
+      url: /digit_simple_commands.html
+      output: web, pdf
+
     - title: User Manual
       url: https://uofi.box.com/s/l0a6eywd7ra722a7b2ui6c7hiz4r6lpc
       output: web, pdf
