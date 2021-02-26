@@ -23,6 +23,8 @@ folder: mydoc
 ## JSON message samples
 
 ```
+["request-privilege", {"privilege": "change-action-command"}]
+
 ["action-set-operation-mode", {"mode": "disabled"}]
 
 ["action-start", {}]
