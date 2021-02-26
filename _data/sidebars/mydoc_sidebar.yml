@@ -81,7 +81,7 @@ entries:
       output: web, pdf
 
     - title: User Manual
-      url: https://www.youtube.com
+      url: /digit_user_manual
       output: web, pdf
 
   - title: Electro Adhesive Clutches
