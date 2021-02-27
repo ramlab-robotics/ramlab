@@ -21,13 +21,14 @@ folder: mydoc
 4. Turn robot ON
 5. Turn on control pad from top button.
 6. Navigate to wifi settings and select digit14 wifi (Not necessary if wifi has already been saved)
-7. Open chrome browser and enter url 10.10.1.1
-8. In the menu select "Gamepad" UI
-9. Once in the Gamepad UI, inspect the robot simulation and ensure that the position of the simulation matches the position of the robot.
-10. Click on "Command Privilege" to obtain control
-11. Click on "Mode" to enable control
-12. Select operating mode from bottom left (stand, move, goto, manipulation)
-13. Select "Help" from top left for button instructions
-14. To turn off, make sure the robot is away from object and then click “Mode” on the top right to disable
-15. Click "Command Privelege" to disable privilege.
-16. Once the robot is laying on the ground press E-stop and turn off robot from side button.
+  * Password is ``chosencertificate127``
+8. Open chrome browser and enter url 10.10.1.1
+9. In the menu select "Gamepad" UI
+10. Once in the Gamepad UI, inspect the robot simulation and ensure that the position of the simulation matches the position of the robot.
+11. Click on "Command Privilege" to obtain control
+12. Click on "Mode" to enable control
+13. Select operating mode from bottom left (stand, move, goto, manipulation)
+14. Select "Help" from top left for button instructions
+15. To turn off, make sure the robot is away from object and then click “Mode” on the top right to disable
+16. Click "Command Privelege" to disable privilege.
+17. Once the robot is laying on the ground press E-stop and turn off robot from side button.
