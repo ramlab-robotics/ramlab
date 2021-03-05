@@ -40,6 +40,16 @@ folder: mydoc
 ["action-end-effector-move", {"end-effector": "left-hand", "waypoints": [{"rpyxyz": [0,0,0,0,0,0]},{"rpyxyz": [0,0,0,0,0.4,-0.2]}]}]
 
 ["action-end-effector-move", {"end-effector": "left-foot", "waypoints": [{"rpyxyz": [0,0,0,-0.5,0.4,-1.0]},{"rpyxyz": [0,0,0,0,0.4,-1.0]}]}]
+
+[ "action-sit", {} ]
+
+[ "action-stand", {} ]
+
+["action-set-operation-mode", {"mode": "locomotion"}]
+
+["get-robot-info", {}]
+
+["action-calibrate-imu", {}]
 ```
 
 ```
@@ -51,5 +61,14 @@ folder: mydoc
   ["action-goto", {"target": {"xy": [0, 0]}}, 4],
   ["action-sit", {}, 5],
 ]}]
+```
+
+## Digit sim and hardware URL
+```
+http://localhost:8080/
+http://localhost:8080/gamepad/
+http://10.10.1.1:8080/gamepad/
+http://10.10.1.1:8080/examples/terminal.html
+
 ```
 
