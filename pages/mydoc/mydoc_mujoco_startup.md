@@ -19,7 +19,7 @@ Save the license file inside of ``/mujoco200_linux/bin``
 
 * Create a ``home/.mujoco`` directory (``mkdir .mujoco ``).
 
-* Move the ``/mujoco200_linux`` file into ``/.mujoco``.
+* Move the ``/mujoco200_linux`` folder into ``/.mujoco``.
 
 * Copy the license key file (``mjkey ``) inside of ``./mujoco``.
 
