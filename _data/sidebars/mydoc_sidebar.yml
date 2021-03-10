@@ -124,6 +124,14 @@ entries:
       url: /humanoid_documentation3.html
       output: web, pdf
 
+  - title: Mujoco
+    output: web, pdf
+    folderitems:
+
+    - title: Mujoco Getting Started
+      url: /mujoco_startup.html
+      output: web, pdf
+
   - title: Installation
     output: web, pdf
     folderitems:
