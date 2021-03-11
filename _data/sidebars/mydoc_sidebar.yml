@@ -76,6 +76,10 @@ entries:
       url: /digit_getting_started.html
       output: web, pdf
 
+    - title: Low-level API
+      url: /digit_lowlevel_api.html
+      output: web, pdf
+
     - title: Simple Simulation Commands
       url: /digit_simple_commands.html
       output: web, pdf
