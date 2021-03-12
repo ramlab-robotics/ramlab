@@ -1,6 +1,6 @@
 ---
 title: Simple Simulation Commands
-tags: [tutorials digit example]
+tags: [tutorials, digit, example]
 keywords: 
 last_updated: February, 26, 2021
 summary: 

@@ -45,7 +45,7 @@ JSON message API server started, connect to http://localhost:8080/
 
 5. The terminal running the simulator should display the message Publishing low-level observation data to 127.0.0.1:25501
 
-6. Using the message-composer in another window, send an action-set-operation-mode to set the operation mode to low-level-api
+6. Using the message-composer in another window, send an action-set-operation-mode to set the operation mode to low-level-api. ``["action-set-operation-mode", {"mode": "low-level-api"}]``
 
 7. The robot in the visualization should move into the pose shown below
 

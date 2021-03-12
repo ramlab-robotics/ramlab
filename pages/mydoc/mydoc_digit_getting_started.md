@@ -1,6 +1,6 @@
 ---
 title: Getting Started
-tags: [tutorials digit]
+tags: [tutorials, digit]
 keywords: 
 last_updated: February, 26, 2021
 summary: 

@@ -1,6 +1,6 @@
 ---
 title: Mujoco Startup
-tags: [tutorials mujoco example]
+tags: [tutorials, mujoco, example]
 keywords: 
 last_updated: March, 9 2021
 summary: 
