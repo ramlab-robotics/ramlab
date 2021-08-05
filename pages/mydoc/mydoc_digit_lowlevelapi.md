@@ -51,4 +51,22 @@ JSON message API server started, connect to http://localhost:8080/
 
 {% include inline_image.html file="digit_lowlevel_api.png" %}
 
+## Running the Example in Hardware
+
+1. Connect ethernet cable to Digit and computer
+2. Apply the ``lowlevelapi_example.toml`` configuration file to Digit by going to http://10.10.1.1/configuration/ and uploading the file
+- Due to bug in the configuration browser, the file must be uploaded via ssh (see ssh page for more details)TODO: add ssh page link
+- Robot must be rebooted to apply changes
+3. Modify the publisher_adress variable in lowlevelapi_example.c so it matches the following: ``const
+char* publisher_address = "10.10.1.1";``
+4. Rebuild the example program
+5. Turn on the robot
+6. When the robot has finished booting and you can view the visualization on the gamepad, release the e-STOP to
+enable motor torques
+- If you wish to use the simple terminal instead of gamepad go to: http://10.10.1.1:8080/examples/terminal.html
+7. Run the lowlevelapi_example code
+8. Set command priveleged by sending the following mesage in the mesage composer: ``["request-privilege", {"privilege": "change-action-command"}]`` in the simple terminal
+9. Using the message-composer, send an action-set-operation-mode to set the operation mode to low-level-api. ``["action-set-operation-mode", {"mode": "low-level-api"}]``
+10. The robot should move into the same pose as in simulation
+
 
