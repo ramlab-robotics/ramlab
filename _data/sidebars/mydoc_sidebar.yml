@@ -83,6 +83,10 @@ entries:
     - title: Simple Simulation Commands
       url: /digit_simple_commands.html
       output: web, pdf
+      
+     - title: SSH
+      url: /digit_ssh.html
+      output: web, pdf
 
     - title: User Manual
       url: /digit_user_manual
