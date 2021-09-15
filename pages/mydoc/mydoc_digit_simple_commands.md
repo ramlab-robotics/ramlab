@@ -23,6 +23,17 @@ folder: mydoc
 ## JSON message samples
 
 ```
+["simulator-apply-force",
+  {
+    "force":{"xyz":[-10, 0, 0]},
+    "duration":0.5
+   }
+]
+or
+["simulator-apply-force",{"force":{"xyz":[-50, 0, 0]},"duration":0.5}]
+```
+
+```
 ["request-privilege", {"privilege": "change-action-command"}]
 
 ["action-set-operation-mode", {"mode": "disabled"}]
